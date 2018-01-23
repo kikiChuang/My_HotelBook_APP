@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languages" translatable="false">
+        <item>English(en-US)</item>
+        <item>Azerbaijani(az)</item>
+        <item>German(de)</item>
+        <item>Greek(el)</item>
+        <item>Spanish(es)</item>
+        <item>French(fr)</item>
+        <item>Scottish Gaelic(gd)</item>
+        <item>Hindi(hi)</item>
+        <item>Hungarian(hu)</item>
+        <item>Indonesian(id)</item>
+        <item>Italian(it)</item>
+        <item>Japanese(ja)</item>
+        <item>Korean(ko)</item>
+        <item>Norwegian Bokmal(nb)</item>
+        <item>Dutch(nl)</item>
+        <item>Polish(pl)</item>
+        <item>Russian(ru)</item>
+        <item>Swedish(sv)</item>
+        <item>Thai(th)</item>
+        <item>Uzbek(uz)</item>
+        <item>Chinese(zh-CN)</item>
+        <item>Chinese(zh-TW)</item>
+        <item>Chinese(en-GB)</item>
+        <item>Turkish(tr)</item>
+        <item>Basque(eu)</item>
+        <item>Hebrew(he)</item>
+        <item>Portuguese(pt-BR)</item>
+        <item>Arabic(ar)</item>
+        <item>Romanian(ro)</item>
+        <item>Macedonian(mk)</item>
+        <item>English(en-AU)</item>
+        <item>Serbian(sr)</item>
+        <item>Slovak(sk)</item>
+        <item>Welsh(cy)</item>
+        <item>Danish(da)</item>
+    </string-array>
+
+    <string-array name="languagesValues" translatable="false">
+        <item>en-US</item>
+        <item>az</item>
+        <item>de</item>
+        <item>el</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>gd</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>nb</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>th</item>
+        <item>uz</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>zh-HK</item>
+        <item>en-GB</item>
+        <item>tr</item>
+        <item>eu</item>
+        <item>he</item>
+        <item>pt-BR</item>
+        <item>ar</item>
+        <item>ro</item>
+        <item>mk</item>
+        <item>en-AU</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>cy</item>
+        <item>da</item>
+    </string-array>
+
+
+    <string-array name="langs" translatable="false">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>繁体中文</item>
+    </string-array>
+</resources>

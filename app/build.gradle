@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "br.liveo.hotelbook.hotelbook"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Google Play services split client libs.
+    compile "com.google.android.gms:play-services-analytics:${google_play_services_client_library_version}"
+    compile "com.google.android.gms:play-services-drive:${google_play_services_client_library_version}"
+    compile "com.google.android.gms:play-services-maps:${google_play_services_client_library_version}"
+    compile "com.google.android.gms:play-services-plus:${google_play_services_client_library_version}"
+    compile "com.google.android.gms:play-services-wearable:${google_play_services_client_library_version}"
+    compile 'com.google.android.gms:play-services-auth:8.3.0'
+
+    // Android support libraries.
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+
+    //Http get utility library
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+
+    // FaceBook services split client libs.
+    compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+
+    //Glide library, used to handle create time view & calendarview
+    compile 'com.prolificinteractive:material-calendarview:1.1.0'
+    compile 'com.squareup:android-times-square:1.6.4@aar'
+
+    // Glide library, used to handle asynchronous loading and caching of images.
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+
+
+    // JSON utility library.
+    compile 'com.google.code.gson:gson:2.3'
+
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+    testCompile 'org.robolectric:robolectric:3.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.3.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    app:theme="@style/MyToolbar"
+    app:popupTheme="@style/Dark.Overlay.LightPopup"
+    android:background="@color/theme_primary">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/padding_normal"
+        android:paddingLeft="@dimen/headerbar_elevation">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/checkInDate"
+            android:textSize="@dimen/app_text_size_large"
+            android:textColor="@color/text_color_primary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/checkOutDate"
+            android:textSize="@dimen/app_text_size_large"
+            android:textColor="@color/text_color_primary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/personNumber"
+            android:textSize="@dimen/app_text_size_large"
+            android:textColor="@color/text_color_primary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/roomNumber"
+            android:textSize="@dimen/app_text_size_large"
+            android:textColor="@color/text_color_primary"/>
+
+    </LinearLayout>
+</LinearLayout>

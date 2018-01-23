@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:key="pref_currency"
+        android:title="@string/pref_currency_title"
+        android:summary="@string/pref_currency_description"
+        android:entries="@array/currency"
+        android:entryValues="@array/currencyValue"/>
+
+    <ListPreference
+        android:key="pref_locale"
+        android:title="@string/pref_locale_title"
+        android:summary="English"
+        android:entries="@array/locale"
+        android:entryValues="@array/localeValue"/>
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <Preference
+            android:key="@string/id_language"
+            android:title="@string/text_language" />
+
+
+</PreferenceScreen>
